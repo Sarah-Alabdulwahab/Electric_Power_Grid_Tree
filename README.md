@@ -7,12 +7,9 @@ The electric power grid is the network infrastructure responsible for the genera
 to it. A consumer has maximum consumption power that it cannot exceed.
 
 
-For simplicity, we assume that the power grid can be represented as a general (non-binary)tree. The grid contains only one generator located at the root, whereas consumers are located at leaf nodes.
+For simplicity, we assume that the power grid can be represented as a general (non-binary)tree. The grid contains only one generator located at the root, whereas consumers are located at leaf nodes. In this project, I used general trees to represent a power grid.
 
 
 We are interested in the following:
 1. Finding how much power is generated, transmitted or consumed by an element. This is the total power required by the consumers in the corresponding subtree.
 2. Whether there is an overload in the grid. An overload takes place when the power required at an element exceeds its capacity. By definition, overloads can only happen at the generator or the transmitters (but not consumers).
-
-
-In this project, I used general trees to represent a power grid.
